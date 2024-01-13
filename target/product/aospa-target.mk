@@ -269,5 +269,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/aospa/target/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
+
 # Signing Keys
 include vendor/lineage-priv/keys/keys.mk
