@@ -268,3 +268,6 @@ PRODUCT_PACKAGES += \
     libwpa_client
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
+
+# Signing Keys
+include vendor/lineage-priv/keys/keys.mk
