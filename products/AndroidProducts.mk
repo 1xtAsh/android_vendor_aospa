@@ -26,6 +26,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/fuxi/aospa_fuxi.mk \
     $(LOCAL_DIR)/ishtar/aospa_ishtar.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
+    $(LOCAL_DIR)/haydn/aospa_haydn.mk \
     $(LOCAL_DIR)/lahaina/aospa_lahaina.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
     $(LOCAL_DIR)/lito/aospa_lito.mk \
@@ -74,6 +75,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_fuxi-userdebug \
     aospa_ishtar-userdebug \
     aospa_juice-userdebug \
+    aospa_haydn-userdebug \
     aospa_lahaina-userdebug \
     aospa_lisa-userdebug \
     aospa_lito-userdebug \
